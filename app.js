@@ -10,6 +10,8 @@ const PORT = process.env.PORT || 4000;
 
 //this adds the strings in a form of string of paths
 app.use(express.static(path.join(__dirname)));
+
+//this serves the frontend files to this server
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname));
 });
