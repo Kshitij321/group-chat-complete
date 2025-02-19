@@ -12,7 +12,7 @@ const messageContainer = document.querySelector(".message-container");
 const nameInput = document.querySelector(".name-input");
 const messageForm = document.querySelector(".message-form");
 const messageInput = document.querySelector(".message-input");
-const messageTone=new Audio('/iphonetone.mp3')
+const messageTone=new Audio('./mssgtone.mp3');
 
 
 const sendMessage = () => {
